@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Built-By: norman
+Build-Jdk: 11.0.4
+Implementation-Title: Netty/Transport/Native/Unix/Common
+Implementation-Version: 4.1.43.Final
+Implementation-Vendor-Id: io.netty
+Implementation-Vendor: The Netty Project
+Implementation-URL: https://netty.io/netty-transport-native-unix-common/
+Automatic-Module-Name: io.netty.transport.unix.common
+Bnd-LastModified: 1571928230761
+Bundle-Description: Static library which contains common unix utilities.
+Bundle-DocURL: https://netty.io/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Transport/Native/Unix/Common
+Bundle-SymbolicName: io.netty.transport-native-unix-common
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.43.Final
+Export-Package: io.netty.channel.unix;uses:="io.netty.buffer,io.netty.ch
+ annel,io.netty.channel.socket";version="4.1.43"
+Import-Package: io.netty.buffer;version="[4.1,5)",io.netty.channel,io.ne
+ tty.channel.socket;version="[4.1,5)",io.netty.util;version="[4.1,5)",io
+ .netty.util.internal;version="[4.1,5)",sun.nio.ch;resolution:=optional,
+ org.eclipse.jetty.npn;version="[1,2)";resolution:=optional,org.eclipse.
+ jetty.alpn;version="[1,2)";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-2.4.1.201501161923
+
